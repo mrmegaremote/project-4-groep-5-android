@@ -10,6 +10,7 @@ namespace App1
     [Activity(Label = "App1", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
+        private int testint = 69420;
         private int count = 1;
         private Button returnButton;
 
